@@ -1,0 +1,114 @@
+/* Body */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* main div */
+#main{
+    width: 90%;
+    background-image: url("components/INNAYAT\ TEAM\ 1.png");
+    background-size: contain;
+    height: 100vh;
+    background-color: rgba(165, 112, 209, 0.198);
+}
+
+/* Inaayat log*/
+.logo{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+/* nav icons */
+.icon {
+    
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;  
+    font-weight: 600;
+    border-radius: 30px;
+    margin:20px;
+}
+
+.active, .icon:hover {
+    background-color: white;
+  }
+  
+/* nav bar*/
+#navBar {
+    position: absolute;
+    top: 20px;
+    width: 92%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image1{
+    height: 120%;
+    width: 67%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    opacity: 0.6;
+    position: fixed;
+    right: -295px;
+    top: -62px;
+}
+
+.image2{
+    position: fixed;
+    right: 0px;
+    height: 125vh;
+    width: 7%;
+    opacity: 0.5;
+    rotate: 180deg;
+    top: -150px;
+}
+
+h1{
+    font-size: 60px;
+    position: relative;
+    top: 145px;
+    left: 145px;
+    gap: 20px;
+    letter-spacing: 13px;
+    line-height: 85px;
+}
+
+h1 i{
+    position: relative;
+    left: 80px;
+}
+
+p{
+    position: relative;
+    top: 180px;
+    left: 95px;
+    width: 570px;
+    letter-spacing: 7px;
+    line-height: 26px;
+    text-align: center;
+}
+
+button[type="button"]{
+    cursor: pointer;
+    position: relative;
+    top: 230px;
+    left: 185px;
+    margin: 25px;
+    height: 50px;
+    width: 155px;
+    border-radius: 100px;
+    background-color: rgb(177, 130, 238);
+    border: none;
+    color: white;
+}
+
