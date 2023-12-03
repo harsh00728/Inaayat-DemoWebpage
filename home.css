@@ -90,6 +90,7 @@ h1{
 
 h1 i{
     font-family: "Lucida Handwriting", cursive;
+    font-weight: 400;
     position: relative;
     left: 80px;
     color: black;
