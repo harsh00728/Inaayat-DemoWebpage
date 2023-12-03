@@ -15,6 +15,11 @@
     background-color: rgba(165, 112, 209, 0.198);
 }
 
+.toolbar i{
+    position: fixed;
+    left: -100px;
+}
+
 /* Inaayat log*/
 .logo{
     width: 130px;
@@ -26,9 +31,7 @@
 
 /* nav icons */
 .icon {
-    
     border: none;
-    outline: none;
     padding: 10px 16px;
     cursor: pointer;
     font-size: 14px;
@@ -36,7 +39,7 @@
     text-decoration: none;  
     font-weight: 600;
     border-radius: 30px;
-    margin:20px;
+    margin:10px;
 }
 
 .active, .icon:hover {
@@ -74,6 +77,7 @@
 }
 
 h1{
+    font-family: 'poppins', sans-serif;
     font-size: 60px;
     position: relative;
     top: 145px;
@@ -81,11 +85,14 @@ h1{
     gap: 20px;
     letter-spacing: 13px;
     line-height: 85px;
+    color: rgb(72, 72, 243);
 }
 
 h1 i{
+    font-family: "Lucida Handwriting", cursive;
     position: relative;
     left: 80px;
+    color: black;
 }
 
 p{
@@ -112,3 +119,239 @@ button[type="button"]{
     color: white;
 }
 
+
+
+@media(max-width: 800px){
+    /* main div */
+#main{
+    width: 100%;
+    background-size: cover;
+    height: 120vh;
+}
+
+/* Inaayat log*/
+.logo{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.toolbar i{
+    position: fixed;
+    left: 750px;
+    top: 80px;
+}
+
+
+/* nav icons */
+.icon {
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;  
+    font-weight: 600;
+    border-radius: 30px;
+    margin:20px;
+}
+
+.active, .icon:hover {
+    background-color: white;
+  }
+  
+/* nav bar*/
+#navBar {
+    position: absolute;
+    top: 20px;
+    width: 92%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav{
+    display: none;
+}
+
+.topnav {
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right: 39px;
+    width: 180px;
+  }
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+  }
+
+.image1{
+    height: 50%;
+    width: 66%;
+    border-radius: 50%;
+    opacity: 0.6;
+    position: fixed;
+    right: 184px;
+    top: 190px;
+}
+
+.image2{
+    position: fixed;
+    right: -2px;
+    height: 131vh;
+    width: 147px;
+    opacity: 0.3;
+    rotate: 180deg;
+    top: -150px;
+}
+
+h1{
+    font-size: 60px;
+    position: relative;
+    top: 145px;
+    left: 145px;
+    gap: 20px;
+    letter-spacing: 13px;
+    line-height: 85px;
+}
+
+h1 i{
+    position: relative;
+    left: 80px;
+}
+
+p{
+    position: absolute;
+    top: 835px;
+    left: 147px;
+    width: 570px;
+}
+
+button[type="button"]{
+    position: relative;
+    top: 707px;
+    left: 206px;
+}
+}
+
+
+
+@media(max-width: 430px){
+    /* main div */
+#main{
+    width: 168%;
+    background-size: cover;
+    height: 181vh;
+}
+
+/* Inaayat log*/
+.logo{
+    width: 168px;
+    height: 165px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.toolbar i{
+    position: fixed;
+    left: 600px;
+    top: 83px;
+}
+
+
+/* nav icons */
+.icon {
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;  
+    font-weight: 600;
+    border-radius: 30px;
+    margin:20px;
+}
+
+.active, .icon:hover {
+    background-color: white;
+  }
+  
+/* nav bar*/
+#navBar {
+    position: absolute;
+    top: 20px;
+    width: 92%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav{
+    display: none;
+}
+
+.topnav {
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right: 39px;
+    width: 180px;
+  }
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+  }
+
+.image1{
+    height: 36%;
+    width: 70%;
+    border-radius: 50%;
+    opacity: 0.6;
+    position: fixed;
+    right: 184px;
+    top: 275px;
+}
+
+.image2{
+    position: fixed;
+    right: -2px;
+    height: 200vh;
+    width: 147px;
+    opacity: 0.3;
+    rotate: 180deg;
+    top: -150px;
+}
+
+h1{
+    font-size: 77px;
+    position: relative;
+    top: 166px;
+    left: 146px;
+    gap: 20px;
+    letter-spacing: 13px;
+    line-height: 98px;
+}
+
+p{
+    top: 973px;
+    left: 66px;
+    width: 570px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+button[type="button"]{
+    top: 900px;
+    left: 148px;
+}
+}

@@ -1,0 +1,169 @@
+#container{
+    height: 90vh;
+    width: 80%;
+    margin: 50px auto 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+.circle{
+    background-color: rgb(139, 139, 139);
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .item{
+    width: 500px;
+    margin-right: 10px;
+}
+
+p{
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.box2{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.box3{
+    justify-content: flex-start;
+    gap: 0px;
+}
+
+.box3 .item{
+    margin-left:45px;
+    margin-right: 0px;
+}
+
+.box4{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.img1{
+    height: 600px;
+    width: 750px;
+    position: fixed;
+    bottom: -194px;
+    left: -270px;
+    z-index: -1;
+}
+
+.img2{
+    height: 600px;
+    width: 600px;
+    position: fixed;
+    top: -276px;
+    right: -169px;
+    rotate: 215deg;
+}
+
+
+@media(max-width: 800px){
+
+    #container{
+        height: 65vh;           
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    
+    .circle{
+        height: 100px;           
+        width: 100px;   
+    }               
+    
+    .box .item{
+        width: 207px;
+    }
+    
+    p{
+        font-size: 13px;
+        letter-spacing: 5px;
+    }
+    
+    .img1{
+        height: 600px;
+        width: 750px;
+        position: fixed;
+        bottom: -46px;
+        left: -291px;
+        z-index: -1;
+    }
+    
+    .img2{
+        height: 600px;
+        width: 600px;
+        position: fixed;
+        top: -314px;
+        right: -215px;
+        rotate: 215deg;
+        z-index: -1;
+    }        
+
+}
+
+
+@media(max-width: 430px){
+
+    #container{
+        height: 65vh;  
+        width: 100%;          
+    }
+
+
+    h1{
+        font-size: 30px;
+    }
+    
+    .circle{
+        height: 100px;           
+        width: 100px;   
+    }               
+    
+    .box .item{
+        width: 94px;
+    }
+    
+    p{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    
+    .img1{
+        height: 400px;
+        width: 600px;
+        bottom: -149px;
+    }
+    
+    .img2{
+        height: 600px;
+        width: 600px;
+        top: -355px;
+        right: -276px;
+    }        
+
+}
